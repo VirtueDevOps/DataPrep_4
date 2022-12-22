@@ -23,3 +23,6 @@ This script is designed to collect, clean, transform, and build a usable dataset
 -Store the data in a format that can be easily accessed and analyzed by others: The script uses the write_csv function to write the data to a CSV file called unemployment_data.csv.
 
 -Create a documentation file: The script creates a documentation file called unemployment_data_documentation.txt that describes the dataset and any transformations or manipulations that were performed on it. The documentation file includes information on the source of the data, the steps taken to clean and transform the data, and any aggregation or summarization that was performed.
+
+
+***The 'Shiny' dashboard allows the user to interactively explore the data by selecting the variable to plot (either the unemployment rate or the number of unemployed persons) from a dropdown menu. When the user selects a variable, the dashboard updates the plot to show the data for that variable.***
