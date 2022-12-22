@@ -1,0 +1,24 @@
+Introduction
+This report documents the decisions made during the process of collecting, cleaning, transforming, and building a usable dataset with information on economic indicators, specifically the civilian unemployment rate in the United States.
+
+Data collection
+The data for this project was collected from the Bureau of Labor Statistics (BLS) website. The data includes the unemployment rate and the number of unemployed persons for each month from January 1948 to the present.
+
+To collect the data, we used web scraping techniques to extract the data from the BLS website and store it in a data frame.
+
+Data cleaning and transformation
+Once the data was collected, we performed the following steps to clean and transform it:
+
+Removed duplicate rows: We used the unique function to remove duplicate rows from the data frame.
+
+Removed irrelevant columns: We used the select function from the tidyverse package to remove irrelevant columns from the data frame.
+
+Handled missing data: We used the na.omit function to remove rows with missing values from the data frame.
+
+Standardized data formats: We used the mutate and as.Date functions to standardize the data format by converting the Date column to a date format.
+
+Data aggregation and summarization
+No aggregation or summarization was performed on the data.
+
+Data storage and documentation
+The resulting dataset was stored in a CSV file (unemployment_data.csv) for easy access and analysis. We also created a documentation file (unemployment_data_documentation.txt) to describe the dataset and any transformations or manipulations that were performed on it. The documentation file includes information on the source of the data, the steps taken to clean and transform the data, and any aggregation or summarization that was performed.
