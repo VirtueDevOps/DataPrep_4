@@ -26,3 +26,8 @@ This script is designed to collect, clean, transform, and build a usable dataset
 
 
 ***The 'Shiny' dashboard allows the user to interactively explore the data by selecting the variable to plot (either the unemployment rate or the number of unemployed persons) from a dropdown menu. When the user selects a variable, the dashboard updates the plot to show the data for that variable.***
+
+
+# DS Foundation 3
+
+
